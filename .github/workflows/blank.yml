@@ -20,5 +20,5 @@ jobs:
       - name: example
         run: |
           echo "This step will only run if the toggle switch is on"
-        if: env.TOGGLE_STATUS == 'on'
+        if: env.TOGGLE_STATUS == 'off'
 
