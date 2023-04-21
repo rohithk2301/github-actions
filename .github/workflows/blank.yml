@@ -35,5 +35,5 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-        if: env.TOGGLE_STATUS == 'on'
+        if: env.TOGGLE_STATUS == 'off'
 
